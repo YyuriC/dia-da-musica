@@ -1,0 +1,359 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    color: #202020;
+    overflow: hidden;
+}
+span{
+    color: #e01e37;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    padding: 10px 20px;
+}
+
+.header-logo h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.header-logo .logo1 {
+    color: #e01e37;
+}
+
+.header-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 20px;
+}
+
+.header-menu li {
+    margin-left: 50px;
+    padding-right: 25px;
+}
+
+.header-menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header-menu a:hover {
+    color: #e01e37;
+}
+
+.header-bottom {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #202020;
+    color: white;
+    box-shadow: 0 2px 10px #202020;
+}
+
+.header-bottom h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.header-bottom p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+}
+#cantred{
+    border-bottom: 2px solid #e01e37;
+}
+
+.container{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding: 0px;
+    margin: 10px;
+}
+
+
+/*Michael Jackson*/
+
+.card-parent{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 0;
+}
+    
+.card-container, .card-container2, .card-container3, .card-container4 {
+    margin: 20px; 
+}
+    
+.card-container {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+  }
+  
+ 
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .card-front {
+    background-color: white;
+  }
+  
+  .card-back {
+    background-color: #e01e37;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    transform: rotateY(180deg);
+  }
+  
+  .card-front .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .card-container:hover .card {
+    transform: rotateY(180deg);
+  }
+  .card-title{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: oblique
+  }
+  .card-description{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+  }
+  
+/*Madonna*/
+
+  .card-container2 {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .card2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+  }
+  
+
+  .card-front2, .card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-front2 {
+    background-color: white;
+  }
+  
+  .card-back2 {
+    background-color: #e01e37;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    transform: rotateY(180deg);
+  }
+  
+  .card-front2 .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-container2:hover .card2 {
+    transform: rotateY(180deg);
+  }
+  .card-title2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: oblique
+  }
+  .card-description2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+  }
+
+  /*Elton John*/
+
+  .card-container3 {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .card3 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+  }
+  
+ 
+  .card-front3, .card-back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .card-front3 {
+    background-color: white;
+  }
+  
+  .card-back3 {
+    background-color: #e01e37;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    transform: rotateY(180deg);
+  }
+  
+  .card-front3 .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .card-container3:hover .card3 {
+    transform: rotateY(180deg);
+  }
+  .card-title3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: oblique
+  }
+  .card-description3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+  }
+
+  /*Whitney Houston*/
+
+  .card-container4 {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .card4 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+  }
+  
+ 
+  .card-front4, .card-back4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .card-front4 {
+    background-color: white;
+  }
+  
+  .card-back4 {
+    background-color: #e01e37;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    transform: rotateY(180deg);
+  }
+  
+  .card-front4 .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .card-container4:hover .card4 {
+    transform: rotateY(180deg);
+  }
+  .card-title4{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: oblique
+  }
+  .card-description4{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+  }
+  
